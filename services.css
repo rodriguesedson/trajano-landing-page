@@ -1,0 +1,36 @@
+.services {}
+.services-article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.services-card {
+    max-width: 300px;
+    padding: 30px;
+    margin: 20px;
+    background-image: linear-gradient(to left, #D9D9D9, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services-link-block {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.services-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.services-link:hover {
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1030px) {
+    .services-article {
+        flex-direction: column;
+    }
+}

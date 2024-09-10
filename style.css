@@ -1,0 +1,32 @@
+@import url('./header.css');
+@import url('./logo.css');
+@import url('./home.css');
+@import url('./aside.css');
+@import url('./section.css');
+@import url('./services.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #D4D4D4, white);
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.subtitle {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.paragraph {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
