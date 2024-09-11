@@ -51,7 +51,7 @@
 .header-btn:active {
     transform: rotate(360deg);
 }
-@media (max-width: 720px) {
+@media (max-width: 1030px) {
     .header-link {
         margin-left: 20px;
     }
