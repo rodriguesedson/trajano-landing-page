@@ -1,0 +1,31 @@
+.about {}
+.about-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.about-image {
+    /* max-width: 400px; */
+    max-height: 500px;
+}
+.about-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 20px;
+    margin: 0;
+    padding: 0 20px;
+}
+.about-paragraphs-block {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 1030px) {
+    .about-article {
+        flex-direction: column;
+    }
+}
