@@ -1,15 +1,17 @@
 .section {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 64px 0;
+    padding: 40px 20px;
+    position: relative;
 }
 .section-header {
     margin-top: 70px;
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,4 +20,11 @@
 .section-division-bar {
     width: 100%;
     display: flex;
+}
+
+@media (min-height: 1700px) {
+    .section {
+        position: relative;
+        height: 100vh;
+    }
 }

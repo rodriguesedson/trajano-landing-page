@@ -9,9 +9,9 @@
 @import url('./about.css');
 @import url('./contacts.css');
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 body {
     margin: 0;

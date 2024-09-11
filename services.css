@@ -1,6 +1,7 @@
 .services {}
 .services-article {
-    width: 100%;
+    height: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -34,5 +35,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .services-card {
+        max-width: 250px;
+    }
+}
+
+@media (min-height: 1700px) {
+    .services-article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-card {
+        max-width: 500px;
     }
 }
