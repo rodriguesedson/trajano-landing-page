@@ -1,6 +1,6 @@
 .home {}
 .home-background {
-    background-image: url('./images/office-background\ 1.png');
+    background-image: url('../images/office-background\ 1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
