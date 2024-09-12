@@ -18,6 +18,7 @@
 .contacts-logo {
     width: 40px;
     height: 40px;
+    transition: width 0.4s ease, height 0.4s ease;
 }
 .contacts-logo:hover {
     width: 50px;
